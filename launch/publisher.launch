@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="ros_simple" type="publisher_test" name="publisher_test" output="screen">
+		<param name="update_frequency" value="50.0"/>
+	</node> 
+</launch>
